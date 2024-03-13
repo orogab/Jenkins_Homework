@@ -6,11 +6,11 @@ Ez a repository tartalmazza a szükséges fájlokat és konfigurációkat az Apa
 
 ## Fájlok leírása:
 
-- **Jenkinsfile**: Ez a fájl tartalmazza a Jenkins pipeline definícióját, amely letölti a repository-t, futtatja a bash scriptet, majd elmenti az apache_install_date.txt fájlt mint artifact.
+- **Jenkins_file.txt**: Ez a fájl tartalmazza a Jenkins pipeline definícióját, amely letölti a repository-t, futtatja a bash scriptet, majd elmenti az apache_install_date.txt fájlt mint artifact.
 
 - **apache_install.sh**: Ebben a bash scriptben találhatók azok a parancsok, amelyek telepítik az Apache webszervert és létrehozzák az apache_install_date.txt fájlt az aktuális dátummal.
 
-- **apache_install_date.txt**: Ez a fájl tartalmazza az Apache webszerver telepítésének dátumát és időpontját.
+- **apache_install_date.txt**: Ez a fájl tartalmazza az Apache webszerver telepítésének dátumát és időpontját. Amit az apache_install.sh script hoz létre.
 
 ## Használati útmutató:
 
