@@ -1,9 +1,8 @@
 pipeline {
     agent {
         any
-        
         //label 'jenkins-slave'
-    }
+   // }
 
     stages {
         stage('Download Repository') {
@@ -25,4 +24,5 @@ pipeline {
             }
         }
     }
+}
 }
