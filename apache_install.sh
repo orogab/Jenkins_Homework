@@ -11,7 +11,7 @@ if [ -f "/etc/os-release" ]; then
         # Telepíti az Apache2 csomagot Ubuntu alatt
         sudo apt update
         sudo apt install -y apache2
-    elif [ "$ID" = "centos" ]; then
+    elif [ "$ID" == "centos" ] || [ "$ID" == "rocky" ]; then
         echo "CentOS disztribúció detektálva."
         # Telepíti az Apache csomagot CentOS alatt
         sudo yum install -y httpd
