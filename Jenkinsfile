@@ -14,6 +14,7 @@ pipeline {
         stage('Run Bash Script') {
             steps {
                 // bash script futtatas
+                sh 'chmod +x ./apache_install.sh'
                 sh './apache_install.sh'
             }
         }
