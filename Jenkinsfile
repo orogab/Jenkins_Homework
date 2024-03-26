@@ -7,7 +7,8 @@ pipeline {
         stage('Download Repository') {
             steps {
                 // GitHub repository-t letoltese
-                git 'https://github.com/orogab/Jenkins_Homework.git'
+                git branch: 'main',
+                url: 'https://github.com/orogab/Jenkins_Homework.git'
             }
         }
         stage('Run Bash Script') {
