@@ -31,3 +31,5 @@ sudo systemctl status apache2 || sudo systemctl status httpd
 
 # Kiírja a telepítés befejezését
 echo "Apache telepítése kész!"
+
+date +%Y_%m_%d_%H_%M > apache_install_date.txt
