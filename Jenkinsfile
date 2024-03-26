@@ -1,6 +1,5 @@
 pipeline {
-    agent {
-        any
+    agent any
         //label 'jenkins-slave'
    // }
 
